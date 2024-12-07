@@ -1,0 +1,244 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #c12d2d; /* Subtileres Rot passend zum Logo */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header .logo img {
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* Navigation */
+nav {
+    background-color: #333; /* Dunkler Ton für den Kontrast */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #c12d2d; /* Subtiles Rot für Hover-Effekt */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #c12d2d;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+/* Product Grid */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+
+
+/* Mittagstisch Styles */
+#mittagstisch .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+#mittagstisch .product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mittagstisch .product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#mittagstisch .details {
+    text-align: center;
+}
+
+#mittagstisch .details h3 {
+    font-size: 1.5em;
+    color: #c12d2d;
+    margin: 10px 0;
+}
+
+#mittagstisch .details p {
+    margin: 5px 0;
+}
+
+#mittagstisch .details strong {
+    font-size: 1.2em;
+}
+/* Kontakt & Partyservice */
+#kontakt {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 3px solid #d90429;
+}
+
+.contact-partyservice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-partyservice p {
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Kontaktinformationen: Anpassung der Icon-Größe und Ausrichtung */
+.contact-info {
+    display: flex; /* Flexbox für horizontale Ausrichtung */
+    align-items: center; /* Vertikale Zentrierung von Icon und Text */
+    justify-content: center; /* Zentrierung von Icon und Text */
+    margin-top: 15px;
+}
+
+.contact-info .icon {
+    width: 20px; /* Festgelegte Größe des Icons */
+    height: 20px; /* Festgelegte Größe des Icons */
+    margin-right: 10px; /* Abstand zwischen Icon und Text */
+}
+
+.contact-info .icon img {
+     width: 20px; /* Setzt die feste Breite auf 20px */
+    height: 20px; /* Setzt die feste Höhe auf 20px */
+    object-fit: contain; 
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Öffnungszeiten */
+#oeffnungszeiten {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 3px solid #d90429;
+}
+
+.opening-hours {
+    margin: 20px 0;
+}
+
+.opening-hours ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.opening-hours ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.opening-hours .day {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #d90429;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
